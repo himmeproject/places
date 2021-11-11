@@ -53,6 +53,14 @@
                <resp>categorization from Michael's chronicle</resp>
                <name ref="https://medievalmideast.org/editors.xml#mcady">McKenzie Cady</name>
             </respStmt>
+            <respStmt>
+               <resp>categorization, matching, Armenian collection/transliteration from Sanjian's Colophons of Armenian Manuscripts</resp>
+               <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
+            </respStmt>
+            <respStmt>
+               <resp>citation generation from Sanjian's Colophons of Armenian Manuscripts</resp>
+               <name ref="https://medievalmideast.org/editors.xml#mcady">McKenzie Cady</name>
+            </respStmt>
          </titleStmt>
          <editionStmt>
             <edition n="0.1"/>
@@ -65,7 +73,7 @@
                                         Distributed under a Creative Commons Attribution 3.0 Unported License
                                     </licence>
             </availability>
-            <date>2021-09-16-05:00</date>
+            <date>2021-11-10-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -81,6 +89,8 @@
          </classDecl>
       </encodingDesc>
       <revisionDesc>
+         <change who="http://medievalmideast.org/editors.xml#tcarlson"
+            when="2021-11-09-05:00">ADDED: Sanjian names and events</change>
          <change who="http://medievalmideast.org/editors.xml#tcarlson"
                  when="2021-09-16-05:00">ADDED: Michael the Syrian name and event</change>
          <change who="http://medievalmideast.org/editors.xml#tcarlson"
@@ -112,6 +122,12 @@
                   <choice>
                      <seg xml:lang="syr">ܒܘܣܦܘܪܘܣ</seg>
                      <seg xml:lang="syr-Latn">BWSPWRWS</seg>
+                  </choice>
+               </placeName>
+               <placeName xml:id="name15769-5" xml:lang="hy" source="#bib15769-4">
+                  <choice>
+                     <seg xml:lang="hy">Պողազ Աղեքսանդրի</seg>
+                     <seg xml:lang="hy-Latn">Poghaz Aghekʻsandri</seg>
                   </choice>
                </placeName>
                <event type="reference" source="#bib15769-1">
@@ -160,6 +176,21 @@
                      <date type="point" when="2009">2009</date>
                   </label>
                </event>
+               <event type="reference" source="#bib15769-4">
+                  <desc xml:lang="en">Event mentioned by <persName ref="https://medievalmideast.org/person/12728">Abraham Ankiwrats‘i</persName>.</desc>
+                  <label type="event">
+                     <date type="before" notBefore="0600" to="1453">before 1453</date>
+                  </label>
+                  <label type="composition">
+                     <date type="circa" notBefore="1453" notAfter="1500">late 15th C</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="point" when="1617">1617</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1957">1957</date>
+                  </label>
+               </event>
                <note type="abstract" xml:id="abstract-en-15769">The strait of water outside Constantinople</note>
                <idno type="URI">https://medievalmideast.org/place/15769</idno>
                <bibl xml:id="bib15769-1">
@@ -206,6 +237,28 @@
                      <citedRange unit="page">I, 36, 290</citedRange>
                      <textLang>French</textLang>
                      <term>Bosphore</term>
+                  </bibl>
+               </bibl>
+               <bibl xml:id="bib15769-4">
+                  <author ref="https://medievalmideast.org/person/12728">Abraham Ankiwrats‘i</author>
+                  <editor>H. S. Anasyan</editor>
+                  <title xml:lang="hy-Latn">Haykakan Aghbyurnerě Byuzandiayi Ankman Masin</title>
+                  <pubPlace>Yerevan</pubPlace>
+                  <publisher>Haykakan SSṚ Gitut‘yunneri Akademiayi Hratarakch‘ut‘yun</publisher>
+                  <date>1957</date>
+                  <ptr target="http://medievalmideast.org/bibl/23"/>
+                  <citedRange unit="page">pp. 35-55</citedRange>
+                  <textLang>Armenian</textLang>
+                  <bibl>
+                     <editor role="translator">Avedis K. Sanjian</editor>
+                     <title xml:lang="en">Colophons of Armenian Manuscripts 1301-1480: A Source for Middle Eastern History</title>
+                     <pubPlace>Cambridge, Mass.</pubPlace>
+                     <publisher>Harvard University Press</publisher>
+                     <date>1969</date>
+                     <ptr target="http://medievalmideast.org/bibl/12"/>
+                     <citedRange unit="entry">1453 (no. 3)</citedRange>
+                     <textLang>English</textLang>
+                     <term>Połaz Ałek‘sandri</term>
                   </bibl>
                </bibl>
             </place>

@@ -34,7 +34,7 @@
                <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
             </respStmt>
             <respStmt>
-               <resp>categorization, matching, Armenian collection/transliteration from Sanjian's Colophons of Armenian Manuscripts</resp>
+               <resp>categorization, matching, Armenian collection/transliteration, and errata note from Sanjian's Colophons of Armenian Manuscripts</resp>
                <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
             </respStmt>
             <respStmt>
@@ -61,7 +61,7 @@
                                         Distributed under a Creative Commons Attribution 3.0 Unported License
                                     </licence>
             </availability>
-            <date>2021-09-16-05:00</date>
+            <date>2021-11-09-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -77,6 +77,10 @@
          </classDecl>
       </encodingDesc>
       <revisionDesc>
+         <change who="http://medievalmideast.org/editors.xml#tcarlson"
+            when="2021-11-09-05:00">ADDED: Errata note</change>
+         <change who="http://medievalmideast.org/editors.xml#tcarlson"
+            when="2021-11-09-05:00">CORRECTED: Sanjian event dates</change>
          <change who="http://medievalmideast.org/editors.xml#tcarlson"
                  when="2021-09-16-05:00">ADDED: Chalkokondyles name and event</change>
          <change who="http://medievalmideast.org/editors.xml#tcarlson"
@@ -155,13 +159,13 @@
                <event type="reference" source="#bib4120-4">
                   <desc xml:lang="en">Event mentioned by an Armenian scribe.</desc>
                   <label type="event">
-                     <date type="point" when="1469">1469</date>
+                     <date type="point" when="1446">1446</date>
                   </label>
                   <label type="composition">
-                     <date type="point" when="1469">1469</date>
+                     <date type="point" when="1446">1446</date>
                   </label>
                   <label type="manuscript">
-                     <date type="point" when="1469">1469</date>
+                     <date type="point" when="1446">1446</date>
                   </label>
                   <label type="edition">
                      <date type="point" when="1958">1958</date>
@@ -183,6 +187,7 @@
                   </label>
                </event>
                <note type="abstract" xml:id="abstract-en-4120">A city in Anatolia between Konya and Siwas, possessing a fortified citadel</note>
+               <note type="errata" source="#bib4120-4" resp="https://medievalmideast.org/editors.xml#tcarlson">The Armenian colophon included in Khach‘ikyan, <title>XV Dari</title>, II: no. 368, p. 284-285, Sanjian, <title>Colophons</title>, 1469 (no. 6), is misdated by them to 1469 when in fact it was composed in 1446.</note>
                <idno type="URI">https://medievalmideast.org/place/4120</idno>
                <bibl xml:id="bib4120-1">
                   <author xml:lang="ar-Latn">Yāqūt al-Ḥamawī</author>

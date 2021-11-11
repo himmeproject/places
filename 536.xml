@@ -93,7 +93,7 @@
                                         Distributed under a Creative Commons Attribution 3.0 Unported License
                                     </licence>
             </availability>
-            <date>2021-09-16-05:00</date>
+            <date>2021-11-10-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -109,6 +109,8 @@
          </classDecl>
       </encodingDesc>
       <revisionDesc>
+         <change who="http://medievalmideast.org/editors.xml#tcarlson"
+            when="2021-11-10-05:00">CORRECTED: Syriaca URI</change>
          <change who="http://medievalmideast.org/editors.xml#tcarlson"
                  when="2021-09-16-05:00">ADDED: Michael the Syrian name and event</change>
          <change who="http://medievalmideast.org/editors.xml#tcarlson"
@@ -265,7 +267,7 @@
                <note type="abstract" xml:id="abstract-en-536">City in Iraq</note>
                <idno type="URI">https://medievalmideast.org/place/536</idno>
                <idno type="URI">http://en.wikipedia.org/wiki/Kufa</idno>
-               <idno type="URI">syriaca.org/place/452</idno>
+               <idno type="URI">http://syriaca.org/place/452</idno>
                <bibl xml:id="bib536-1">
                   <author xml:lang="ar-Latn">Yāqūt al-Ḥamawī</author>
                   <title xml:lang="ar-Latn">Muʿjam al-buldān</title>
