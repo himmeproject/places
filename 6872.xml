@@ -10,7 +10,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:lang="en">Dayr Ṭamwayh</title>
+            <title xml:lang="en">Synagogue of Moses</title>
             <sponsor>HIMME: Historical Index of the Medieval Middle East</sponsor>
             <funder>National Endowment for the Humanities</funder>
             <principal>Thomas A. Carlson</principal>
@@ -23,7 +23,7 @@
             </respStmt>
             <respStmt>
                <resp>place categorization</resp>
-               <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
+               <name ref="https://medievalmideast.org/editors.xml#lyadgar">Liran Yadgar</name>
             </respStmt>
             <respStmt>
                <resp>abstract</resp>
@@ -31,6 +31,14 @@
             </respStmt>
             <respStmt>
                <resp>matching and transliteration from Yāqūt al-Ḥamawī’s Muʿjam al-Buldān</resp>
+               <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
+            </respStmt>
+            <respStmt>
+               <resp>categorization, matching, Hebrew collection from Benjamin of Tudela's travelogue</resp>
+               <name ref="https://medievalmideast.org/editors.xml#lyadgar">Liran Yadgar</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hebrew transliteration from Benjamin of Tudela's travelogue</resp>
                <name ref="https://medievalmideast.org/editors.xml#tcarlson">Thomas A. Carlson</name>
             </respStmt>
          </titleStmt>
@@ -45,7 +53,7 @@
                                         Distributed under a Creative Commons Attribution 3.0 Unported License
                                     </licence>
             </availability>
-            <date>2021-09-16-05:00</date>
+            <date>2022-03-26-05:00</date>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital.</p>
@@ -61,7 +69,11 @@
          </classDecl>
       </encodingDesc>
       <revisionDesc>
+         <change who="https://medievalmideast.org/editors.xml#tcarlson"
+            when="2022-03-26-05:00">MERGED: Synagogue of Moses (formerly place/17357) and Dayr Ṭamwayh (correcting type)</change>
          <change who="http://medievalmideast.org/editors.xml#tcarlson"
+            when="2021-09-16-05:00">ADDED: Benjamin of Tudela name and event</change>
+         <change who="https://medievalmideast.org/editors.xml#tcarlson"
                  when="2021-09-16-05:00">ADDED: Yaqut name and event</change>
          <change who="https://medievalmideast.org/editors.xml#tcarlson"
                  when="2021-09-16-05:00">CREATED: place</change>
@@ -70,12 +82,18 @@
    <text>
       <body>
          <listPlace>
-            <place xml:id="place-6872" type="monastery">
-               <placeName xml:id="name6872-1" xml:lang="en" himme-tags="#himme-headword">Dayr Ṭamwayh</placeName>
+            <place xml:id="place-6872" type="synagogue">
+               <placeName xml:id="name6872-1" xml:lang="en" himme-tags="#himme-headword">Synagogue of Moses</placeName>
                <placeName xml:id="name6872-2" xml:lang="ar" source="#bib6872-1">
                   <choice>
                      <seg xml:lang="ar">دير طمويه</seg>
                      <seg xml:lang="ar-Latn">Dayr Ṭamwayh</seg>
+                  </choice>
+               </placeName>
+               <placeName xml:id="name6872-3" xml:lang="he" source="#bib6872-2">
+                  <choice>
+                     <seg xml:lang="he">כנסת משה רבינו</seg>
+                     <seg xml:lang="he-Latn">KNST MShH RBYNW</seg>
                   </choice>
                </placeName>
                <event type="reference" source="#bib6872-1">
@@ -93,7 +111,22 @@
                      <date type="point" when="1995">1995</date>
                   </label>
                </event>
-               <note type="abstract" xml:id="abstract-en-6872">A monastery along the Nile in Egypt near the village Ṭamwayh</note>
+               <event type="reference" source="#bib6872-2">
+                  <desc xml:lang="en">Events mentioned by <persName ref="https://medievalmideast.org/person/14146">Benjamin of Tudela</persName>
+                  </desc>
+                  <label type="event">
+                     <date type="before" notBefore="0600" to="1180">before c.1170</date>
+                  </label>
+                  <label type="composition">
+                     <date type="circa" notBefore="1163" notAfter="1183">c.1173</date>
+                  </label>
+                  <label type="manuscript">
+                     <date type="between" notBefore="1200" notAfter="1300">13th C</date>
+                  </label>
+                  <label type="edition">
+                     <date type="point" when="1907">1907</date>
+                  </label>
+               </event><note type="abstract" xml:id="abstract-en-6872">A synagogue and pilgrimage site along the Nile in Egypt near the village <placeName ref="https://medievalmideast.org/place/9988.html">Damūh / Ṭamwayh</placeName>.</note>
                <idno type="URI">https://medievalmideast.org/place/6872</idno>
                <bibl xml:id="bib6872-1">
                   <author xml:lang="ar-Latn">Yāqūt al-Ḥamawī</author>
@@ -104,6 +137,17 @@
                   <ptr target="http://medievalmideast.org/bibl/9"/>
                   <citedRange unit="page">(2) 519</citedRange>
                   <textLang>Arabic</textLang>
+               </bibl>
+               <bibl xml:id="bib6872-2">
+                  <editor>Marcus N. Adler</editor>
+                  <title xml:lang="en">The Itinerary of Benjamin of Tudela</title>
+                  <pubPlace>London</pubPlace>
+                  <publisher>Frowde</publisher>
+                  <date>1907</date>
+                  <ptr target="http://medievalmideast.org/bibl/6"/>
+                  <citedRange unit="page">102</citedRange>
+                  <textLang>Hebrew with English translation</textLang>
+                  <term>Synagogue of Moses</term>
                </bibl>
             </place>
          </listPlace>
